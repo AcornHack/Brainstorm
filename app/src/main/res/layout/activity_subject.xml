@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.optimism.brainstorm.SubjectActivity">
+
+    <Button
+        android:id="@+id/edit_filter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:drawableTop="@drawable/ic_filter"
+        android:text="Edit Filter"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="0dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/subject_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edit_filter_button">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

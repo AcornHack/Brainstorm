@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "597346767462",
+    "firebase_url": "https://optimism-brainstorm.firebaseio.com",
+    "project_id": "optimism-brainstorm",
+    "storage_bucket": "optimism-brainstorm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597346767462:android:a0431e690686f5ac",
+        "android_client_info": {
+          "package_name": "com.optimism.brainstorm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597346767462-rcbb739kkrktd1ul9hd7lroctkuodcfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv6G4yL4eLhjE5TrhLh3HqoLdi5kAXt70"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
